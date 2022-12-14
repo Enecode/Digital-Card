@@ -1,0 +1,29 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faMediumM,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
+function Footer(){
+    return(
+        <footer className="footer">
+            <a href="https://www.twitter.com/IsahJakub" className="github">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
+            <a href="https://medium.com/@isahjacob" className="medium">
+                <FontAwesomeIcon icon={faMediumM} size="2x" />
+            </a>
+            <a href="https://twitter.com/IsahJakub" className="twitter">
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+             <a href="https://www.linkedin.com/in/isahejacob/" className="linkedin">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+        </footer>
+    )
+}
+
+export default Footer
