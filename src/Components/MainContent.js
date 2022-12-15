@@ -1,8 +1,10 @@
 import React from "react";
 import "../style.css"
+import Header from "./Header";
 function MainContent(){
     return(
         <div className="main">
+            <Header />
             <div className="container"> 
                 <h1 className="name">Isah Jacob</h1>
                 <h2 className="role">Full Stack Engineer</h2>

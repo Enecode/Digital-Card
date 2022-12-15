@@ -6,11 +6,12 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import "../style.css"
 
 function Footer(){
     return(
         <footer className="footer">
-            <a href="https://www.twitter.com/IsahJakub" className="github">
+            <a href="https://github.com/Enecode" className="github">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a href="https://medium.com/@isahjacob" className="medium">
